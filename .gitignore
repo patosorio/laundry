@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# SQLite database files (if you're using SQLite during development)
+*.sqlite3
+db.sqlite3
+
+# Backup files created by the SQLite database engine
+*.sqlite3-journal
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Media files 
+media/
+
+# Default Django static folder
+static/
+
+# Environment variables 
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific settings for VS Code
+.vscode/
+
+# Other temporary files that might be generated
+*.swp
+*.swo
+
+# Django migrations (Uncomment the below lines if you want to ignore migrations, though usually, you'd commit them)
+# migrations/
+# *.migrations
+
+# Common folders to ignore from other tools/packages
+node_modules/
+bower_components/
